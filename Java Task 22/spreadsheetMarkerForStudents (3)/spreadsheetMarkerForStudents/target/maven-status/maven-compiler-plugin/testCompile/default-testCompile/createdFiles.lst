@@ -1,0 +1,9 @@
+edu\upc\arqsoft\marker\TestSuite.class
+edu\upc\etsetb\arqsoft\spreadsheet\marker\CircularDependenciesTest.class
+edu\upc\etsetb\arqsoft\spreadsheet\marker\SaveTest.class
+edu\upc\etsetb\arqsoft\spreadsheet\marker\FormulaContentTest.class
+edu\upc\etsetb\arqsoft\spreadsheet\marker\DependentCellsTest.class
+edu\upc\etsetb\arqsoft\spreadsheet\marker\LoadTest.class
+edu\upc\arqsoft\marker\TestAll.class
+edu\upc\etsetb\arqsoft\spreadsheet\marker\NumberContentTest.class
+edu\upc\etsetb\arqsoft\spreadsheet\marker\TextContentTest.class

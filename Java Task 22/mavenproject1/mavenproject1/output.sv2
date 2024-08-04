@@ -1,0 +1,4 @@
+5.0;3.0;"Header 1";=A1+A2;=A1+B1+B2;=SUM(B1,B2,B3);
+10.0;4.0;"Header 2";=B1*B2;;=MIN(B1,B2,B3);
+;5.0;"Notes";=D1/D2;;=MAX(B1,B2,B3);
+;;;;;=AVERAGE(B1,B2,B3);

@@ -1,0 +1,19 @@
+C
+E A1 5
+E A2 10
+E B1 3
+E B2 4
+E B3 5
+E C1 "Header 1"
+E C2 "Header 2"
+E C3 "Notes"
+E D1 =A1+A2
+E D2 =B1*B2
+E D3 =D1/D2
+E E1 =A1+B1+B2
+E F1 =SUM(B1;B2;B3)
+E F2 =MIN(B1;B2;B3)
+E F3 =MAX(B1;B2;B3)
+E F4 =AVERAGE(B1;B2;B3)
+S output.sv2
+L output.sv2

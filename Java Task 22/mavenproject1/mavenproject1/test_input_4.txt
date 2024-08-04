@@ -1,0 +1,8 @@
+C
+E A1 5
+E B1 10
+E C1 Text
+E A2 =A1+B1+C1
+E B2 =A1/B1
+E C2 =A1*B1
+Exit

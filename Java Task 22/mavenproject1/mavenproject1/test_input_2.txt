@@ -1,0 +1,6 @@
+C
+E A1 5
+E B1 =A1
+E A2 =B1
+E B2 =A2
+Exit

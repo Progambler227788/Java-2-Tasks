@@ -1,0 +1,14 @@
+C
+E A1 5
+E B1 10
+E C1 15
+E A2 =A1+B1+C1
+E B2 20
+E C2 25
+E A3 Hello
+E B3 =SUMA(A1;B1;C1)
+E C3 =MIN(A1;B1;C1)
+E A4 =MAX(A1;B1;C1)
+E B4 =PROMEDIO(A1;B1;C1)
+S test_spreadsheet.sv2
+Exit

@@ -1,0 +1,47 @@
+Team Name: 123
+Team-Members: 6
+132
+123123
+1231
+123
+1231
+12312
+Quiz Events:
+Total Points: 100
+
+Team Name: 100
+Team-Members: 6
+100
+100
+100
+100
+100
+100
+Quiz Events:
+General Knowledge Quiz,  01/04/2024
+80's Music Quiz, 15/04/2024
+Total Points: 0
+
+Team Name: 19232
+Team-Members: 6
+234
+23425
+232
+talha
+akhs
+akhs
+Quiz Events:
+Movie & TV Quiz, 10/06/2024
+Total Points: 0
+
+Team Name: da
+Team-Members: 6
+12
+123
+132
+132
+123
+123
+Quiz Events:
+Total Points: 0
+

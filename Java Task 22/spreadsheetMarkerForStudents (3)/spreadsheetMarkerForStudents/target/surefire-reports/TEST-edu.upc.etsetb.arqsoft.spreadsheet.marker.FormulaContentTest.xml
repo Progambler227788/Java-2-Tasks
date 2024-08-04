@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.upc.etsetb.arqsoft.spreadsheet.marker.FormulaContentTest" time="1.191" tests="10" errors="0" skipped="0" failures="10">
+  <properties>
+    <property name="jpda.address" value="51573"/>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Java Fiverr\Java Task 22\spreadsheetMarkerForStudents (3)\spreadsheetMarkerForStudents\target\test-classes;D:\Java Fiverr\Java Task 22\spreadsheetMarkerForStudents (3)\spreadsheetMarkerForStudents\target\classes;C:\Users\talha\.m2\repository\edu\upc\ac\BaseCorrectorDAC\2022_2023on\BaseCorrectorDAC-2022_2023on.jar;C:\Users\talha\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\talha\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\talha\.m2\repository\org\mockito\mockito-core\2.28.2\mockito-core-2.28.2.jar;C:\Users\talha\.m2\repository\net\bytebuddy\byte-buddy\1.9.10\byte-buddy-1.9.10.jar;C:\Users\talha\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.10\byte-buddy-agent-1.9.10.jar;C:\Users\talha\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Karachi"/>
+    <property name="forkMode" value="once"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\talha\AppData\Local\Temp\surefire4379099173671463806\surefirebooter-20240622213302373_3.jar C:\Users\talha\AppData\Local\Temp\surefire4379099173671463806 2024-06-22T21-33-01_967-jvmRun1 surefire-20240622213302373_1tmp surefire_0-20240622213302373_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="edu.upc.etsetb.arqsoft.spreadsheet.marker.FormulaContentTest"/>
+    <property name="surefire.test.class.path" value="D:\Java Fiverr\Java Task 22\spreadsheetMarkerForStudents (3)\spreadsheetMarkerForStudents\target\test-classes;D:\Java Fiverr\Java Task 22\spreadsheetMarkerForStudents (3)\spreadsheetMarkerForStudents\target\classes;C:\Users\talha\.m2\repository\edu\upc\ac\BaseCorrectorDAC\2022_2023on\BaseCorrectorDAC-2022_2023on.jar;C:\Users\talha\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\talha\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\talha\.m2\repository\org\mockito\mockito-core\2.28.2\mockito-core-2.28.2.jar;C:\Users\talha\.m2\repository\net\bytebuddy\byte-buddy\1.9.10\byte-buddy-1.9.10.jar;C:\Users\talha\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.10\byte-buddy-agent-1.9.10.jar;C:\Users\talha\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\talha"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Java Fiverr\Java Task 22\spreadsheetMarkerForStudents (3)\spreadsheetMarkerForStudents"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\talha\AppData\Local\Temp\surefire4379099173671463806\surefirebooter-20240622213302373_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.2+13-LTS-58"/>
+    <property name="user.name" value="talha"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="jpda.listen" value="true"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-21\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\talha\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\talha\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="D:\Java Fiverr\Java Task 22\spreadsheetMarkerForStudents (3)\spreadsheetMarkerForStudents"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Zulu\zulu-17\bin\;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\talha\AppData\Local\Programs\Python\Python311;C:\MinGW\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\talha\AppData\Local\Programs\Python\Python311;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\MySQL\MySQL Shell 8.2\bin\;C:\Users\talha\AppData\Local\Microsoft\WindowsApps;C:\Users\talha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\talha\AppData\Local\Programs\Python\Python38;C:\MinGW\bin;C:\Program Files\JetBrains\PyCharm 2023.3.3\bin;;C:\Users\talha\AppData\Roaming\npm;C:\Users\talha\.dotnet\tools;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.1.3\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.2+13-LTS-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+    <property name="maven.surefire.debug" value="-agentlib:jdwp=transport=dt_socket,server=n,address=51573"/>
+  </properties>
+  <testcase name="test_01_SetCellContent_FormulaOnlyNumbers" classname="edu.upc.etsetb.arqsoft.spreadsheet.marker.FormulaContentTest" time="0.098">
+    <failure message="The cell should contain the number: 2 with a margin of 0.00001. Instead, it contains the value NaN; expected:&lt;2.0&gt; but was:&lt;NaN&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: The cell should contain the number: 2 with a margin of 0.00001. Instead, it contains the value NaN; expected:<2.0> but was:<NaN>
+	at edu.upc.ac.corrector.SuperClassForTests.sAssertEquals(SuperClassForTests.java:186)
+	at edu.upc.etsetb.arqsoft.spreadsheet.marker.FormulaContentTest.test_01_SetCellContent_FormulaOnlyNumbers(FormulaContentTest.java:152)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[
+Setting a formula with only numbers as operands in a cell. Total value (over 10): 0.465116279069767
+
+	Case 1: a sum of two numbers. Value: 0.11627906976744175
+		The cell should contain the number: 3 -result of formula =1+2- with a margin of 0.00001. Instead, it contains the value NaN; expected:<3.0> but was:<NaN>
+
+	Case 2: a substraction of two numbers. Value: 0.11627906976744175
+		The cell should contain the number: -2 with a margin of 0.00001. Instead, it contains the value NaN; expected:<-2.0> but was:<NaN>
+
+	Case 3: a multiplication of two numbers. Value: 0.11627906976744175
+		The cell should contain the number: 6 with a margin of 0.00001. Instead, it contains the value NaN; expected:<6.0> but was:<NaN>
+
+	Case 4: a division of two numbers. Value: 0.11627906976744175
+		The cell should contain the number: 2 with a margin of 0.00001. Instead, it contains the value NaN; expected:<2.0> but was:<NaN>
+		Puntos obtenidos: 0.0. Puntos acumulados: 0.0
+]]></system-out>
+  </testcase>
+  <testcase name="test_02_SetCellContent_FormulaNumbersAndOneLevelOfParenthesis" classname="edu.upc.etsetb.arqsoft.spreadsheet.marker.FormulaContentTest" time="0.006">
+    <failure message="The cell should contain the number 2 -result of formula 10/(2+3)- with a margin of 0.00001. Instead, it contains the value NaN; expected:&lt;2.0&gt; but was:&lt;NaN&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: The cell should contain the number 2 -result of formula 10/(2+3)- with a margin of 0.00001. Instead, it contains the value NaN; expected:<2.0> but was:<NaN>
+	at edu.upc.ac.corrector.SuperClassForTests.sAssertEquals(SuperClassForTests.java:186)
+	at edu.upc.etsetb.arqsoft.spreadsheet.marker.FormulaContentTest.test_02_SetCellContent_FormulaNumbersAndOneLevelOfParenthesis(FormulaContentTest.java:188)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[
+Setting a formula with only numbers and one level of parenthesis in a cell
+		The cell should contain the number 2 -result of formula 10/(2+3)- with a margin of 0.00001. Instead, it contains the value NaN; expected:<2.0> but was:<NaN>
+		Puntos obtenidos: 0.0. Puntos acumulados: 0.0
+]]></system-out>
+  </testcase>
+  <testcase name="test_03_SetCellContent_FormulaNumbersAndTwoLevelsOfParenthesis" classname="edu.upc.etsetb.arqsoft.spreadsheet.marker.FormulaContentTest" time="0.406">
+    <failure message="The cell should contain the number 10 -result of formula 100/(5+(25/5))- with a margin of 0.00001. Instead, it contains the value NaN; expected:&lt;10.0&gt; but was:&lt;NaN&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: The cell should contain the number 10 -result of formula 100/(5+(25/5))- with a margin of 0.00001. Instead, it contains the value NaN; expected:<10.0> but was:<NaN>
+	at edu.upc.ac.corrector.SuperClassForTests.sAssertEquals(SuperClassForTests.java:186)
+	at edu.upc.etsetb.arqsoft.spreadsheet.marker.FormulaContentTest.test_03_SetCellContent_FormulaNumbersAndTwoLevelsOfParenthesis(FormulaContentTest.java:223)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[
+Setting a formula with only numbers and two levels of parenthesis in a cell
+		The cell should contain the number 10 -result of formula 100/(5+(25/5))- with a margin of 0.00001. Instead, it contains the value NaN; expected:<10.0> but was:<NaN>
+		Puntos obtenidos: 0.0. Puntos acumulados: 0.0
+]]></system-out>
+  </testcase>
+  <testcase name="test_04_SetCellContent_FormulaNumbersCellsRefs" classname="edu.upc.etsetb.arqsoft.spreadsheet.marker.FormulaContentTest" time="0.004">
+    <failure message="The cell should contain the number 5 -result of formula A1*10-5 - with a margin of 0.00001. Instead, it contains the value NaN; expected:&lt;5.0&gt; but was:&lt;NaN&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: The cell should contain the number 5 -result of formula A1*10-5 - with a margin of 0.00001. Instead, it contains the value NaN; expected:<5.0> but was:<NaN>
+	at edu.upc.ac.corrector.SuperClassForTests.sAssertEquals(SuperClassForTests.java:186)
+	at edu.upc.etsetb.arqsoft.spreadsheet.marker.FormulaContentTest.test_04_SetCellContent_FormulaNumbersCellsRefs(FormulaContentTest.java:258)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[
+Setting a formula with numbers and references to cells as operands
+		The cell should contain the number 5 -result of formula A1*10-5 - with a margin of 0.00001. Instead, it contains the value NaN; expected:<5.0> but was:<NaN>
+		Puntos obtenidos: 0.0. Puntos acumulados: 0.0
+]]></system-out>
+  </testcase>
+  <testcase name="test_05_SetCellContent_FormulaNumbersCellsRefsOneLevelParenthesis" classname="edu.upc.etsetb.arqsoft.spreadsheet.marker.FormulaContentTest" time="0.002">
+    <failure message="The cell should contain the number 5 -result of formula =(A5*4)/(A2+A2)- with a margin of 0.00001. Instead, it contains the value NaN; expected:&lt;5.0&gt; but was:&lt;NaN&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: The cell should contain the number 5 -result of formula =(A5*4)/(A2+A2)- with a margin of 0.00001. Instead, it contains the value NaN; expected:<5.0> but was:<NaN>
+	at edu.upc.ac.corrector.SuperClassForTests.sAssertEquals(SuperClassForTests.java:186)
+	at edu.upc.etsetb.arqsoft.spreadsheet.marker.FormulaContentTest.test_05_SetCellContent_FormulaNumbersCellsRefsOneLevelParenthesis(FormulaContentTest.java:293)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[
+Setting a formula with numbers, references to cells, and one level of parenthesis
+		The cell should contain the number 5 -result of formula =(A5*4)/(A2+A2)- with a margin of 0.00001. Instead, it contains the value NaN; expected:<5.0> but was:<NaN>
+		Puntos obtenidos: 0.0. Puntos acumulados: 0.0
+]]></system-out>
+  </testcase>
+  <testcase name="test_06_SetCellContent_FormulaNumbersCellsRefsTwoLevelsParenthesis" classname="edu.upc.etsetb.arqsoft.spreadsheet.marker.FormulaContentTest" time="0.003">
+    <failure message="The cell should contain the number 10 -result of formula =100/(A5+(A5*A5/5))- with a margin of 0.00001. Instead, it contains the value NaN; expected:&lt;10.0&gt; but was:&lt;NaN&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: The cell should contain the number 10 -result of formula =100/(A5+(A5*A5/5))- with a margin of 0.00001. Instead, it contains the value NaN; expected:<10.0> but was:<NaN>
+	at edu.upc.ac.corrector.SuperClassForTests.sAssertEquals(SuperClassForTests.java:186)
+	at edu.upc.etsetb.arqsoft.spreadsheet.marker.FormulaContentTest.test_06_SetCellContent_FormulaNumbersCellsRefsTwoLevelsParenthesis(FormulaContentTest.java:328)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[
+Setting a formula with numbers, references to cells, and one level of parenthesis
+		The cell should contain the number 10 -result of formula =100/(A5+(A5*A5/5))- with a margin of 0.00001. Instead, it contains the value NaN; expected:<10.0> but was:<NaN>
+		Puntos obtenidos: 0.0. Puntos acumulados: 0.0
+]]></system-out>
+  </testcase>
+  <testcase name="test_07_SetCellContent_FormulaNumbersCellsRefsFunctionsNumbArgs" classname="edu.upc.etsetb.arqsoft.spreadsheet.marker.FormulaContentTest" time="0.002">
+    <failure message="The cell should contain the number 20 -result of formula =(A5*4)/(A2+A2)+SUMA(1;2;3;4;5)- with a margin of 0.00001. Instead, it contains the value NaN; expected:&lt;20.0&gt; but was:&lt;NaN&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: The cell should contain the number 20 -result of formula =(A5*4)/(A2+A2)+SUMA(1;2;3;4;5)- with a margin of 0.00001. Instead, it contains the value NaN; expected:<20.0> but was:<NaN>
+	at edu.upc.ac.corrector.SuperClassForTests.sAssertEquals(SuperClassForTests.java:186)
+	at edu.upc.etsetb.arqsoft.spreadsheet.marker.FormulaContentTest.test_07_SetCellContent_FormulaNumbersCellsRefsFunctionsNumbArgs(FormulaContentTest.java:363)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[
+Setting a formula with numbers, references to cells, and functions that have only numbers as args
+		The cell should contain the number 20 -result of formula =(A5*4)/(A2+A2)+SUMA(1;2;3;4;5)- with a margin of 0.00001. Instead, it contains the value NaN; expected:<20.0> but was:<NaN>
+		Puntos obtenidos: 0.0. Puntos acumulados: 0.0
+]]></system-out>
+  </testcase>
+  <testcase name="test_08_SetCellContent_FormulaNumbersCellsRefsFunctionsNumbCellRefsArgs" classname="edu.upc.etsetb.arqsoft.spreadsheet.marker.FormulaContentTest" time="0.191">
+    <failure message="The cell should contain the number 20 -result of formula =(A5*4)/(A2+A2)+SUMA(A1;A2;3;4;5)- with a margin of 0.00001. Instead, it contains the value NaN; expected:&lt;20.0&gt; but was:&lt;NaN&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: The cell should contain the number 20 -result of formula =(A5*4)/(A2+A2)+SUMA(A1;A2;3;4;5)- with a margin of 0.00001. Instead, it contains the value NaN; expected:<20.0> but was:<NaN>
+	at edu.upc.ac.corrector.SuperClassForTests.sAssertEquals(SuperClassForTests.java:186)
+	at edu.upc.etsetb.arqsoft.spreadsheet.marker.FormulaContentTest.test_08_SetCellContent_FormulaNumbersCellsRefsFunctionsNumbCellRefsArgs(FormulaContentTest.java:399)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[
+Setting a formula with numbers, references to cells, and functions that have numbers and references to cells as args
+		The cell should contain the number 20 -result of formula =(A5*4)/(A2+A2)+SUMA(A1;A2;3;4;5)- with a margin of 0.00001. Instead, it contains the value NaN; expected:<20.0> but was:<NaN>
+		Puntos obtenidos: 0.0. Puntos acumulados: 0.0
+]]></system-out>
+  </testcase>
+  <testcase name="test_09_SetCellContent_FormulaNumbersCellsRefsFunctionsNumbCellRefsRangesArgs" classname="edu.upc.etsetb.arqsoft.spreadsheet.marker.FormulaContentTest" time="0.011">
+    <failure message="The cell should contain the number 83 -result of formula =(A5*4)/(A2+A2)+SUMA(A1;A2;3;4;5;A6:A12)- with a margin of 0.00001. Instead, it contains the value NaN; expected:&lt;83.0&gt; but was:&lt;NaN&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: The cell should contain the number 83 -result of formula =(A5*4)/(A2+A2)+SUMA(A1;A2;3;4;5;A6:A12)- with a margin of 0.00001. Instead, it contains the value NaN; expected:<83.0> but was:<NaN>
+	at edu.upc.ac.corrector.SuperClassForTests.sAssertEquals(SuperClassForTests.java:186)
+	at edu.upc.etsetb.arqsoft.spreadsheet.marker.FormulaContentTest.test_09_SetCellContent_FormulaNumbersCellsRefsFunctionsNumbCellRefsRangesArgs(FormulaContentTest.java:436)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[
+Setting a formula with numbers, references to cells, and functions that have numbers,references to cells, and ranges as args
+		The cell should contain the number 83 -result of formula =(A5*4)/(A2+A2)+SUMA(A1;A2;3;4;5;A6:A12)- with a margin of 0.00001. Instead, it contains the value NaN; expected:<83.0> but was:<NaN>
+		Puntos obtenidos: 0.0. Puntos acumulados: 0.0
+]]></system-out>
+  </testcase>
+  <testcase name="test_10_SetCellContent_FormulaNumbersCellsRefsFunctionsNumbCellRefsRangesFuncsArgs" classname="edu.upc.etsetb.arqsoft.spreadsheet.marker.FormulaContentTest" time="0.002">
+    <failure message="The cell should contain the number 96 -result of formula =(A5*4)/(A2+A2)+SUMA(A1;A2;3;4;5;A6:A12;MIN(A13:A20))- with a margin of 0.00001. Instead, it contains the value NaN; expected:&lt;96.0&gt; but was:&lt;NaN&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: The cell should contain the number 96 -result of formula =(A5*4)/(A2+A2)+SUMA(A1;A2;3;4;5;A6:A12;MIN(A13:A20))- with a margin of 0.00001. Instead, it contains the value NaN; expected:<96.0> but was:<NaN>
+	at edu.upc.ac.corrector.SuperClassForTests.sAssertEquals(SuperClassForTests.java:186)
+	at edu.upc.etsetb.arqsoft.spreadsheet.marker.FormulaContentTest.test_10_SetCellContent_FormulaNumbersCellsRefsFunctionsNumbCellRefsRangesFuncsArgs(FormulaContentTest.java:473)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[
+Setting a formula with numbers, references to cells, and functions that have numbers,references to cells, ranges, and other functions as args
+		The cell should contain the number 96 -result of formula =(A5*4)/(A2+A2)+SUMA(A1;A2;3;4;5;A6:A12;MIN(A13:A20))- with a margin of 0.00001. Instead, it contains the value NaN; expected:<96.0> but was:<NaN>
+		Puntos obtenidos: 0.0. Puntos acumulados: 0.0
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>edu.upc.ac</groupId>
+    <artifactId>BaseCorrectorDAC</artifactId>
+    <version>2022_2023on</version>
+    <packaging>jar</packaging>
+     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-core -->
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest-core</artifactId>
+            <version>1.3</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.mockito/mockito-all -->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>1.10.19</version>
+            <scope>test</scope>
+        </dependency>        
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.github.wvengen</groupId>
+                <artifactId>proguard-maven-plugin</artifactId>
+                <version>2.0.7</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>net.sf.proguard</groupId>
+                        <artifactId>proguard-base</artifactId>
+                        <version>5.3</version>
+                        <scope>runtime</scope>
+                    </dependency>
+                </dependencies>
+                <configuration>
+                    <proguardVersion>5.3</proguardVersion>
+                    <options>
+                        <option>
+                            -keep public class
+                            edu.upc.poo.correccion.ResultsRenderer{
+                            public &lt;methods&gt;;
+                            protected &lt;methods&gt;;
+                            }
+                            -keep public class
+                            edu.upc.ac.corrector.SuperClassForTests{
+                            public &lt;methods&gt;;
+                            protected &lt;methods&gt;;
+                            }
+                            -keep public class
+                            edu.upc.ac.corrector.AccreditedSuperClassForTests{
+                            public &lt;methods&gt;;
+                            protected &lt;methods&gt;;
+                            }
+                            -keep public class
+                             edu.upc.poo.correccion.ResultsRenderer{
+                             public &lt;fields&gt;;
+                             protected &lt;fields&gt;;
+                            }
+                            -keepnames class
+                            edu.upc.ac.corrector.SuperClassForTests{
+                             public &lt;fields&gt;;
+                             protected &lt;fields&gt;;
+                            }
+                            -keepnames class edu.upc.ac.corrector.AccreditedSuperClassForTests{
+                             public &lt;fields&gt;;
+                             protected &lt;fields&gt;;
+                            }
+                            -keeppackagenames
+                            edu.upc.poo.correccion.ResultsRenderer
+                            -keeppackagenames
+                            edu.upc.ac.corrector.SuperClassForTests
+                            -keeppackagenames
+                            edu.upc.ac.corrector.AccreditedSuperClassForTests
+                            <!--
+                            -keepnames attributes
+                            edu.upc.ac.corrector.SuperClassForTests{
+                            &lt;fields&gt;
+                            }
+                                    -->
+                            
+                            -dontshrink
+                            -dontoptimize
+                            -dontwarn
+                        </option>
+                    </options>
+                    <!--
+                    <libs>
+                        <lib>${java.home}/lib/rt.jar</lib>
+                        <lib>${java.home}/lib/jce.jar</lib>
+                    </libs>
+                                        -->
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <debug>false</debug>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <name>BaseCorrectorDAC20222023onJU4</name>
+</project>
